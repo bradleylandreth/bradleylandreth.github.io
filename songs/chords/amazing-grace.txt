@@ -1,0 +1,16 @@
+Amazing Grace — Chords
+Key of G  |  Easy cowboy-church version
+
+G     G     C     G
+Amazing grace, how sweet the sound
+G     G     D     D
+That saved a wretch like me
+G     G     C     G
+I once was lost, but now am found
+G     D     G     G
+Was blind, but now I see
+
+Suggested shapes:
+G  = 320003
+C  = x32010
+D  = xx0232

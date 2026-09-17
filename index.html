@@ -1,11 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Praise &amp; Worship | Calvary's Cross Cowboy Church</title>
+  <style>
+    :root {
+      --barn: #3b2a1a;
+      --saddle: #6b4226;
+      --dust: #f4ead8;
+      --paper: #fffaf1;
+      --rope: #c4a574;
+      --ink: #2b2118;
+      --muted: #6a5848;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--dust);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    header {
+      background: var(--barn);
+      color: var(--dust);
+      text-align: center;
+      padding: 2.2rem 1.2rem 1.8rem;
+    }
+    header p.eyebrow {
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-family: system-ui, sans-serif;
+      margin: 0 0 0.5rem;
+      color: var(--rope);
+    }
+    h1 {
+      margin: 0 0 0.4rem;
+      font-size: 1.85rem;
+      font-weight: normal;
+    }
+    header .tag {
+      margin: 0;
+      color: #e8d7b8;
+      font-size: 1.05rem;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.4rem 1rem 3rem;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--rope);
+      border-radius: 8px;
+      padding: 1.15rem 1.2rem;
+      margin-bottom: 1.1rem;
+    }
+    h2 {
+      margin: 0 0 0.6rem;
+      font-size: 1.25rem;
+      color: var(--saddle);
+    }
+    p { margin: 0 0 0.75rem; }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    ul.files {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.files li {
+      border-top: 1px solid #eadcc4;
+      padding: 0.7rem 0;
+    }
+    ul.files li:first-child { border-top: none; }
+    ul.files a {
+      color: var(--saddle);
+      font-weight: bold;
+      text-decoration: none;
+    }
+    ul.files a:hover { text-decoration: underline; }
+    .kind {
+      display: inline-block;
+      font-family: system-ui, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--barn);
+      background: #efe0c4;
+      padding: 0.12rem 0.4rem;
+      border-radius: 4px;
+      margin-right: 0.4rem;
+    }
+    footer {
+      text-align: center;
+      padding: 0 1rem 2.5rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>It works</h1>
-  <p>This is my GitHub Pages site.</p>
+  <header>
+    <p class="eyebrow">Calvary's Cross Cowboy Church · Malvern, Arkansas</p>
+    <h1>Praise &amp; Worship</h1>
+    <p class="tag">Lyrics, chords, and tabs for the team</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>How to use this page</h2>
+      <p>Open a song below. Each title can have lyrics, chords, and/or tab files stored in this same GitHub repo.</p>
+      <p class="muted">After you add a new file on GitHub, add one more line to this page that points at that file.</p>
+    </div>
+
+    <div class="card">
+      <h2>Songs</h2>
+      <ul class="files">
+        <li>
+          <div>Amazing Grace</div>
+          <a href="songs/lyrics/amazing-grace.txt"><span class="kind">Lyrics</span>amazing-grace.txt</a><br>
+          <a href="songs/chords/amazing-grace.txt"><span class="kind">Chords</span>amazing-grace.txt</a><br>
+          <a href="songs/tabs/amazing-grace.txt"><span class="kind">Tab</span>amazing-grace.txt</a>
+        </li>
+        <li>
+          <div>I'll Fly Away</div>
+          <a href="songs/lyrics/ill-fly-away.txt"><span class="kind">Lyrics</span>ill-fly-away.txt</a><br>
+          <a href="songs/chords/ill-fly-away.txt"><span class="kind">Chords</span>ill-fly-away.txt</a>
+        </li>
+        <li>
+          <div>How Great Thou Art</div>
+          <a href="songs/lyrics/how-great-thou-art.txt"><span class="kind">Lyrics</span>how-great-thou-art.txt</a><br>
+          <a href="songs/chords/how-great-thou-art.txt"><span class="kind">Chords</span>how-great-thou-art.txt</a>
+        </li>
+        <li>
+          <div>Add your next song here</div>
+          <span class="muted">Copy one block above. Change the title and the file names to match what you upload.</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Folder map</h2>
+      <p class="muted">Keep files in these folders so the links stay simple:</p>
+      <p>
+        songs/lyrics/<br>
+        songs/chords/<br>
+        songs/tabs/
+      </p>
+      <p class="muted">PDF, Word, or text files all work. Use short names with dashes, like <code>old-rugged-cross.pdf</code>.</p>
+    </div>
+  </main>
+
+  <footer>
+    Calvary's Cross Cowboy Church<br>
+    Come as you are.
+  </footer>
 </body>
 </html>

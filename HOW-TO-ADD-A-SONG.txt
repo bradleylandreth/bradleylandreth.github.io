@@ -1,0 +1,12 @@
+How to add a song on GitHub
+
+1. Open your YourUsername.github.io repository.
+2. Click songs, then lyrics (or chords, or tabs).
+3. Add file → Upload files  (PDF, Word, or .txt)
+   or Add file → Create new file  (for plain text).
+4. Name it with dashes: old-rugged-cross.txt
+5. Commit the file.
+6. Open index.html → pencil icon → copy one song block
+   and change the title plus the three href links to your new file names.
+7. Commit index.html.
+8. Wait one minute and refresh your live site.
